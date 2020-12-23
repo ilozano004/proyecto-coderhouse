@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Aprende+</title>
+        <link href="../css/styles.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="flex-div">
+                <img src="../imagen/logo.png" width="50px" height="auto" alt="logo aprendemas">
+                <h1>Aprende+ </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="/pages/cursos.html">Cursos</a>
+                        <ul>
+                            <li><a href="cursos.html">Oficios</a></li>
+                            <li><a href="cursos.html">Finanzas</a></li>
+                            <li><a href="cursos.html">Administración de proyectos</a></li>
+                            <li><a href="cursos.html">Artísticos</a></li>
+                        </ul> 
+                    </li>
+                    <li><a href="/pages/modalidades.html">Modalidades</a></li>
+                    <li><a href="/pages/noticias.html">Noticias</a></li>
+                    <li><a href="/pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>  
+        </header>
+        <main>
+            <h1>Envianos tu consulta</h1>
+            <h2>Completa el siguiente formulario</h2>
+            <section>
+                <form name="contact" action="gracias.html" method="POST">
+                    <label for="my_name">Nombre</label>
+                    <input type="text" name="name-contact" id="my_name" placeholder="Juan"><br>
+                    <label for="my_lastname">Apellido</label>
+                    <input type="text" name="name-contact" id="my_lastname" placeholder="Perez"><br>
+                    <label for="my_mail">E-mail</label>
+                    <input type="email" name="mail_contact" id="my_mail" required> <br><br>
+                    <input type="radio" name="genero_input" id="f" value="m">
+                    <label for="f">Mujer</label><br>
+                    <input type="radio" name="genero_input" id="m" value="h">
+                    <label for="m">Hombre</label><br>
+                    <input type="radio" name="genero_input" id="otro" value="o">
+                    <label for="otro">Otro</label><br><br>
+                    <input type="checkbox" name="interest-contact" id="adm" value="adm">
+                    <label for="adm">Administración</label>
+                    <input type="checkbox" name="interest-contact" id="int_fin" value="fin">
+                    <label for="int_fin">Finanzas</label>
+                    <input type="checkbox" name="interest-contact" id="int_of" value="of">
+                    <label for="int_of">Oficios</label><br><br>
+                    <label for="my_select">¿Te gustaría recibir novedades de cursos?</label><br>
+                    <select name="pregunta" id="my_select">
+                        <option selected="selected">Seleccionar</option>
+                        <option value="s">Sí</option>
+                        <option value="n">No</option>
+                        <option value="desp">En otro momento</option>
+                    </select><br>
+                    <label for="my_coment">Dejanos tu inquietud, sugerencia:</label><br>
+                    <textarea name="c_coment" id="my_coment" placeholder="Comentarios" rows=10" cols="20"></textarea>
+                    <br>
+                    <input type="reset" value="limpiar">
+                    <input type="submit" value="enviar">
+                    <span class="icon-location"></span>
+                    <span class="icon-clock"></span>
+                </form>
+            </section>    
+
+        </main>
+        <footer>
+            <article>
+                <img src="../imagen/logo.png" width="40px" alt="logo aprendemas">
+            </article>
+            <article>
+                <p>Seguinos en las redes </p>
+            </article>
+            <p> &copy; 2020 Todos Los Derechos Reservados &reg; Aprendemas</p>
+        </footer>
+    </body>
+</html>
