@@ -95,7 +95,7 @@ body p {
     background-position: right center; 
     text-align: center;  
 }
-/*animaciones boton*/
+animaciones boton
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #132743;
@@ -117,7 +117,7 @@ body p {
     animation:push 1.5s infinite;
     justify-items:center;
     display:flex;
-    align-content:center; /*no me sale alinear el boton*/   
+    align-content:center; 
 }       
 @keyframes push{
     0%{
