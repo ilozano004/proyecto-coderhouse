@@ -2,74 +2,115 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Aprende+</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Aprende desde $300 ARS. Contacto."> 
+        <meta name="keywords"  content="CURSOS VIRTUALES, OFICIOS, NEGOCIOS, PDF, EMPRENDEDORES, CURSOS ONLINE ECONOMICOS, CURSOS CORTOS, APRENDE, EMPRENDIMIENTOS ">
+        <title>AprendeMas - Contacto</title>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
         <link href="../css/styles.css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div class="flex-div">
-                <img src="../imagen/logo.png" width="50px" height="auto" alt="logo aprendemas">
-                <h1>Aprende+ </h1>
+            <div class="container">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                  <a class="navbar-brand" href="../index.html">
+                    <h1 class="d-block">Aprende+</h1>
+                  </a>
+                </div>  
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a href="cursos.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Cursos</a>
+                        <div class="dropdown-menu">
+                          <a href="pages/cursos.html#ofic" class="dropdown-item">Oficios</a>
+                          <a href="pages/cursos.html#inf" class="dropdown-item">Infórmatica</a>
+                          <a href="pages/cursos.html#beauty" class="dropdown-item">Belleza y Salud</a>
+                          <a href="pages/cursos.html#fin" class="dropdown-item">Finanzas</a>
+                          <div class="divider"></div>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="modalidades.html">Modalidades</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">Noticias</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+              </nav>
+            </div>     
+          </header>
+        <main>   
+            <div class="formulario">
+              <div class="container">
+                <div class="row mt-3 pb-5">
+                  <div class="col-12 text-center">
+                    <h2 class="display-4 p-3" >Contáctanos</h2>
+                  </div>
+                  <div class="col-12 col-md-8 offset-md-2 fondo py-4 px-5 rounded">
+                    <form name="contact" action="gracias.html" method="POST" class="action">
+                      <div class="form-group">
+                        <label for="my_name">Nombre</label>
+                        <input type="text" name="name-contact" id="my_name" placeholder="Juan" class="form-control shadow-sm">
+                      </div>  
+                      <div class="form-group">
+                        <label for="my_lastname">Apellido</label>
+                        <input type="text" name="name-contact" id="my_lastname" placeholder="Perez" class="form-control shadow-sm">
+                      </div>
+                      <div class="form-group">
+                        <label for="my_mail">E-mail</label>
+                        <input type="email" name="mail_contact" id="my_mail" required class="form-control shadow-sm"> 
+                      </div>
+                      <div class="form-group">
+                        <input type="radio" name="genero_input" id="f" value="m">
+                        <label for="f">Mujer</label>
+                        <input type="radio" name="genero_input" id="m" value="h">
+                        <label for="m">Hombre</label><br>
+                        <input type="radio" name="genero_input" id="otro" value="o">
+                        <label for="otro">Otro</label>
+                      </div>
+                      <div class="form-group">
+                        <input type="checkbox" name="interest-contact" id="adm" value="adm">
+                        <label for="adm">Administración</label>
+                        <input type="checkbox" name="interest-contact" id="int_fin" value="fin">
+                        <label for="int_fin">Finanzas</label>
+                        <input type="checkbox" name="interest-contact" id="int_of" value="of">
+                        <label for="int_of">Oficios</label>
+                      </div>
+                      <div class="form-group">
+                        <label for="my_select">¿Te gustaría recibir novedades de cursos?</label>
+                        <select name="pregunta" id="my_select">
+                            <option selected="selected">Seleccionar</option>
+                            <option value="s">Sí</option>
+                            <option value="n">No</option>
+                            <option value="desp">En otro momento</option>
+                        </select>
+                        <div class="form-group">
+                          <label for="my_coment"><p>Dejanos tu inquietud, sugerencia:</p></label>
+                          <textarea name="c_coment" id="my_coment" placeholder="Comentarios" rows="3" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                          <buttom class="btn btn-secondary btn-block"> Enviar </buttom>
+                          <!-- <input type="submit" value="enviar"> -->
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="/pages/cursos.html">Cursos</a>
-                        <ul>
-                            <li><a href="cursos.html">Oficios</a></li>
-                            <li><a href="cursos.html">Finanzas</a></li>
-                            <li><a href="cursos.html">Administración de proyectos</a></li>
-                            <li><a href="cursos.html">Artísticos</a></li>
-                        </ul> 
-                    </li>
-                    <li><a href="/pages/modalidades.html">Modalidades</a></li>
-                    <li><a href="/pages/noticias.html">Noticias</a></li>
-                    <li><a href="/pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>  
-        </header>
-        <main>
-            <h1>Envianos tu consulta</h1>
-            <h2>Completa el siguiente formulario</h2>
-            <section>
-                <form name="contact" action="gracias.html" method="POST">
-                    <label for="my_name">Nombre</label>
-                    <input type="text" name="name-contact" id="my_name" placeholder="Juan"><br>
-                    <label for="my_lastname">Apellido</label>
-                    <input type="text" name="name-contact" id="my_lastname" placeholder="Perez"><br>
-                    <label for="my_mail">E-mail</label>
-                    <input type="email" name="mail_contact" id="my_mail" required> <br><br>
-                    <input type="radio" name="genero_input" id="f" value="m">
-                    <label for="f">Mujer</label><br>
-                    <input type="radio" name="genero_input" id="m" value="h">
-                    <label for="m">Hombre</label><br>
-                    <input type="radio" name="genero_input" id="otro" value="o">
-                    <label for="otro">Otro</label><br><br>
-                    <input type="checkbox" name="interest-contact" id="adm" value="adm">
-                    <label for="adm">Administración</label>
-                    <input type="checkbox" name="interest-contact" id="int_fin" value="fin">
-                    <label for="int_fin">Finanzas</label>
-                    <input type="checkbox" name="interest-contact" id="int_of" value="of">
-                    <label for="int_of">Oficios</label><br><br>
-                    <label for="my_select">¿Te gustaría recibir novedades de cursos?</label><br>
-                    <select name="pregunta" id="my_select">
-                        <option selected="selected">Seleccionar</option>
-                        <option value="s">Sí</option>
-                        <option value="n">No</option>
-                        <option value="desp">En otro momento</option>
-                    </select><br>
-                    <label for="my_coment">Dejanos tu inquietud, sugerencia:</label><br>
-                    <textarea name="c_coment" id="my_coment" placeholder="Comentarios" rows=10" cols="20"></textarea>
-                    <br>
-                    <input type="reset" value="limpiar">
-                    <input type="submit" value="enviar">
-                    <span class="icon-location"></span>
-                    <span class="icon-clock"></span>
-                </form>
-            </section>    
-
         </main>
         <footer>
             <article>
@@ -80,5 +121,11 @@
             </article>
             <p> &copy; 2020 Todos Los Derechos Reservados &reg; Aprendemas</p>
         </footer>
+        <script type="text/script" src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </body>
 </html>

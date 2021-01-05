@@ -2,59 +2,82 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Aprende+</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Aprende desde $300 ARS. Oficios, negocios, habilidades para emprender y diferentes temáticas. Cursos virtuales sin presiones de tiempo con distintas modalidades. Exclusivos, realizados por expertos."> 
+        <meta name="keywords"  content="CURSOS VIRTUALES, OFICIOS, NEGOCIOS, PDF, EMPRENDEDORES, CURSOS ONLINE ECONOMICOS, CURSOS CORTOS, APRENDE, EMPRENDIMIENTOS ">
+        <title>AprendeMas-Noticias</title>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
         <link href="../css/styles.css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div class="flex-div">
-                <img src="../imagen/logo.png" width="50px" height="auto" alt="logo aprendemas">
-                <h1>Aprende+ </h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="cursos.html">Cursos</a>
-                        <ul>
-                            <li><a href="cursos.html">Oficios</a></li>
-                            <li><a href="cursos.html">Finanzas</a></li>
-                            <li><a href="cursos.html">Administración de proyectos</a></li>
-                            <li><a href="cursos.html">Artísticos</a></li>
-                        </ul> 
-                    </li>
-                    <li><a href="modalidades.html">Modalidades</a></li>
-                    <li><a href="noticias.html">Noticias</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>  
-        </header>
+            <div class="container">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                  <a class="navbar-brand" href="../index.html">
+                    <h1 class="d-block">Aprende+</h1>
+                  </a>
+                </div>  
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a href="cursos.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Cursos</a>
+                        <div class="dropdown-menu">
+                          <a href="pages/cursos.html#ofic" class="dropdown-item">Oficios</a>
+                          <a href="pages/cursos.html#inf" class="dropdown-item">Infórmatica</a>
+                          <a href="pages/cursos.html#beauty" class="dropdown-item">Belleza y Salud</a>
+                          <a href="pages/cursos.html#fin" class="dropdown-item">Finanzas</a>
+                          <div class="divider"></div>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="modalidades.html">Modalidades</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">Noticias</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+              </nav>
+            </div>     
+          </header>
         <main>  
-            <h2>Sección noticias y novedades</h2>
-            <section>
+            <h2 class="font-weight-bolder">Sección noticias y novedades</h2>
+            <section class="container">
                 <article>
                     <h3>Noticias emprendedores</h3>
-                    <img>
-                    <p> Nuevas categorías e impuestos </p>
+                    <p>4 de enero 2021</p>
+                    <p>¿Cómo funcionará el financiamiento colectivo de pequeñas empresas y emprendedores? </p>
+                    <img src="https://www.america-retail.com/static//2020/10/finanzas-presupuesto-calculos-analisis.jpg">
+                    <p>Fuente </p>
+                    <a href="https://www.america-retail.com/argentina/como-funcionara-el-financiamiento-colectivo-de-pequenas-empresas-y-emprendedores/"></a>
                 </article>
                 <article> 
                     <h3> Noticias tecnología </h3>
-                    <img>
-                    <p> usas los beneficios de excel </p>
-                </article>
+                    <p>8 de diciembre 2020</p>
+                    <p> Lanzan la primera diplomatura en Programación Web Fullstack </p>
+                    <img src="https://www.infobae.com/new-resizer/OT7t_ZAS6GNGxi5tDhnvqSGwFuM=/768x432/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/C73DY53D5FAYHIQB7DU5KPHT74.jpg">
+                    <p>Fuente </p>
+                    <a href="https://www.infobae.com/mix5411/2020/12/09/lanzan-la-primera-diplomatura-en-programacion-web-fullstack/"></a>
+                  </article>
             </section>
-            <section>
-                <h2><a href="cursos.html"> Entra aquí para ver todos los cursos</a></h2>
-            </section>
-            <section>
-                <h2>Opiniones</h2>
-                    <p>Comentario 1</p>
-                    <p>Comentario 2</p>
+            <section class="container">
+                <p><a class="btn btn-secondary"  href="cursos.html"> Entra aquí para ver todos los cursos</a></p>
             </section>
         </main>
-        <footer>
-            <article>
+        <footer class="w-100">
+            <article >
                 <img src="../imagen/logo.png" width="40px" alt="logo aprendemas">
             </article>
             <article>
@@ -62,5 +85,11 @@
             </article>
             <p> &copy; 2020 Todos Los Derechos Reservados &reg; Aprendemas</p>
         </footer>
+        <script type="text/script" src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </body>
 </html>

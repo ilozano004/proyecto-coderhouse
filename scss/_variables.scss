@@ -1,0 +1,33 @@
+// variables colores
+$celeste: #70adb5;
+$azul:  #132743;
+$rosa: #ffcbcb;
+$celeste-oscuro: #407088;
+
+
+// variables fonts
+$titulos: 'Open Sans', sans-serif;
+$subtitulos: 'Indie Flower', cursive;
+
+// tamaño de fuente
+$size-titles:2rem;
+$size-subtitles:1,5rem;
+$size-comments:0,7rem;
+$size-nav:1rem;
+
+$color:azul;
+p{
+    @if ($color==azul){
+        color:$azul;
+        background-color: $celeste;
+        padding:1rem;
+    } @else if ($color==rosa){
+        color:$rosa;
+        background-color: $azul;
+        padding:1rem;
+    }
+    @else {
+        color:$azul;
+        background-color:white;
+    }
+}       

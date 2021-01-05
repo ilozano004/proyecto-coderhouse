@@ -1,0 +1,227 @@
+p {
+  color: #132743;
+  background-color: #70adb5;
+  padding: 1rem;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+}
+
+h3 {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.header-container {
+  background-color: #ffcbcb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #70adb5;
+}
+
+.nav-container__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-container__list__general-sublink {
+  position: relative;
+  display: inline-block;
+  padding: 3px;
+  margin: 0 2px 0 0;
+}
+
+.nav-container__list__general-sublink:hover {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container__list__general-sublink--items {
+  position: absolute;
+  display: none;
+}
+
+.nav-container__list__general-link {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  margin: 0 2px 0 0;
+  text-decoration: none;
+  color: #132743;
+  background: #70adb5;
+}
+
+.nav-container__list__general-link:hover {
+  background-color: #132743;
+}
+
+.section-container {
+  background-color: #70adb5;
+  margin-top: 100px;
+}
+
+.section-container__article--titles {
+  font-size: 1, 5rem;
+  background-color: #ffcbcb;
+}
+
+.section-container__article--text {
+  font-size: 0, 7rem;
+}
+
+.container-footer {
+  background-color: #132743;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: space-between auto;
+      -ms-flex-pack: space-between auto;
+          justify-content: space-between auto;
+  width: 100%;
+}
+
+.container-footer__logo {
+  margin: 12px 12px 12px 12px;
+}
+
+.container-footer__copy {
+  font-weight: bold;
+}
+
+p {
+  color: #132743;
+  background-color: #70adb5;
+  padding: 1rem;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background-color: #132743;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0;
+  padding: 0.5rem;
+  width: 100%;
+  z-index: 1;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #70adb5;
+}
+
+.nav-container__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-container__list__general-sublink {
+  position: relative;
+  display: inline-block;
+  padding: 3px;
+  margin: 0 2px 0 0;
+}
+
+.nav-container__list__general-sublink:hover {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container__list__general-sublink--items {
+  position: absolute;
+  display: none;
+}
+
+.nav-container__list__general-link {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  margin: 0 2px 0 0;
+  text-decoration: none;
+  color: #132743;
+  background: #70adb5;
+}
+
+.nav-container__list__general-link:hover {
+  background-color: #132743;
+}
+
+.main-container {
+  background-color: #ffcbcb;
+  padding: 8rem;
+}
+
+.main-container__table {
+  border: black solid;
+}
+
+.ofic--color {
+  background-color: #70adb5;
+  margin: 20px 0 10px 0;
+}
+
+.adm--color {
+  background-color: #407088;
+  margin: 20px 0 10px 0;
+}
+
+.fin--color, .fin--color--fondo {
+  background-color: #132743;
+  margin: 20px 0 10px 0;
+}
+
+.otros--color {
+  background-color: white;
+  margin: 20px 0 10px 0;
+}
+
+.fin--color--fondo {
+  color: white;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=main.css.map */

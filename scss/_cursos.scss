@@ -1,0 +1,84 @@
+@import"./variables";
+* {
+    font-family: $titulos;
+    margin: 0;
+    padding:0;
+}
+.header-container{
+    background-color: $azul;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    padding: 0.5rem;
+    width: 100%;
+    z-index:1;
+    font-size: $size-nav;
+    font-family: $titulos;
+    color: $celeste;
+}
+.nav-container {
+    &__list   {
+        display: flex;
+
+    &__general-sublink {
+        position:relative;
+        display: inline-block;
+        padding:3px;
+        margin:0 2px 0 0;
+
+        &:hover{
+            display:block;
+            padding:0;
+            margin:0;
+                }
+        &--items {  
+            position: absolute;
+            display:none;
+                 }
+                        }
+
+    &__general-link{
+    position:relative;
+    display: inline-block;
+    padding:15px;
+    margin:0 2px 0 0;
+    text-decoration: none;
+    color:$azul;
+    background: $celeste;
+   
+    &:hover{
+        background-color:$azul;
+      }
+   }
+  }
+}
+
+.main-container{
+    background-color: $rosa;
+    padding: 8rem;
+
+    &__table{
+        border: black solid;
+    }
+}
+
+$tablas: (
+    ofic:$celeste,
+    adm:$celeste-oscuro,
+    fin:$azul,
+    otros:white,
+    );  
+@each $tabla, $color in $tablas {
+    .#{$tabla}--color{
+        background-color: $color;
+        margin: 20px 0 10px 0
+    }
+}
+
+.fin--color--fondo{
+    @extend.fin--color;
+    color:white;
+    font-weight: bolder;
+}

@@ -2,180 +2,238 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Aprende+</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Aprende desde $300 ARS. Oficios, negocios, habilidades para emprender y diferentes temáticas. Cursos virtuales sin presiones de tiempo con distintas modalidades. Exclusivos, realizados por expertos."> 
+        <meta name="keywords"  content="CURSOS VIRTUALES, OFICIOS, NEGOCIOS, PDF, EMPRENDEDORES, CURSOS ONLINE ECONOMICOS, CURSOS CORTOS, APRENDE, EMPRENDIMIENTOS ">
+        <title>AprendeMas/Listado de cursos/Cursos online</title>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
         <link href="../css/styles.css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">   
     </head>
     <body>
         <header>
-            <div class="flex-div">
-                <img src="../imagen/logo.png" width="50px" height="auto" alt="logo aprendemas">
-                <h1>Aprende+ </h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="cursos.html">Cursos</a>
-                        <ul>
-                            <li><a href="#ofic" class="color-menu">Oficios</a></li>
-                            <li><a href="#fin"class="color-menu">Finanzas</a></li>
-                            <li><a href="#adm"class="color-menu">Administración de proyectos</a></li>
-                            <li><a href="#art"class="color-menu">Artísticos</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="modalidades.html">Modalidades</a></li>
-                    <li><a href="noticias.html">Noticias</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>  
-        </header>
+            <div class="container">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                    <h1 class="d-block">Aprende+</h1>
+                  </a>
+                </div>  
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a href="cursos.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Cursos</a>
+                        <div class="dropdown-menu">
+                          <a href="pages/cursos.html#ofic" class="dropdown-item">Oficios</a>
+                          <a href="pages/cursos.html#inf" class="dropdown-item">Infórmatica</a>
+                          <a href="pages/cursos.html#beauty" class="dropdown-item">Belleza y Salud</a>
+                          <a href="pages/cursos.html#fin" class="dropdown-item">Finanzas</a>
+                          <div class="divider"></div>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="modalidades.html">Modalidades</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">Noticias</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+              </nav>
+            </div>     
+          </header>
         <main>
             <h2>Cursos por Categorías</h2>
-                    <h3 id="ofic">Oficios</h3>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Curso</th>
-                                <th>Video</th>
-                                <th>Pdf con ilustraciones</th>
-                                <th>Precios</th>
-                                <th>Promos</th>
-                                <th>Extras</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Carpintería básica</td>
-                                <td>x</td>
-                                <td>x</td>
-                                <td>$800</td>
-                                <td rowspan="3">Descuento 30% en tu segundo curso</td>
-                                <td rowspan="2">Plano de regalo</td>
-                            </tr>
-                            <tr>
-                                <td>Electricista básico</td>
-                                <td>x</td>
-                                <td></td>
-                                <td>$500</td>
-                            </tr>
-                            <tr>
-                                <td>Instalador de aires acondicionados</td>
-                                <td></td>
-                                <td>x</td>
-                                <td>$800</td>
-                                <td>descuento en prox curso</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <h3 id="adm">Administración de proyectos</h3>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Curso</th>
-                                <th>Video</th>
-                                <th>Pdf con ilustraciones</th>
-                                <th>Precios</th>
-                                <th>Promos</th>
-                                <th>Extras</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Carpintería básica</td>
-                                <td>x</td>
-                                <td>x</td>
-                                <td>$800</td>
-                                <td rowspan="3">Descuento 30% en tu segundo curso</td>
-                                <td rowspan="2">Plano de regalo</td>
-                            </tr>
-                            <tr>
-                                <td>Electricista básico</td>
-                                <td>x</td>
-                                <td></td>
-                                <td>$500</td>
-                            </tr>
-                            <tr>
-                                <td>Instalador de aires acondicionados</td>
-                                <td></td>
-                                <td>x</td>
-                                <td>$800</td>
-                                <td>descuento en prox curso</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <h3 id="fin"> Finanzas</h3>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Curso</th>
-                                <th>Video</th>
-                                <th>Pdf con ilustraciones</th>
-                                <th>Precios</th>
-                                <th>Promos</th>
-                                <th>Extras</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Carpintería básica</td>
-                                <td>x</td>
-                                <td>x</td>
-                                <td>$800</td>
-                                <td rowspan="3">Descuento 30% en tu segundo curso</td>
-                                <td rowspan="2">Plano de regalo</td>
-                            </tr>
-                            <tr>
-                                <td>Electricista básico</td>
-                                <td>x</td>
-                                <td></td>
-                                <td>$500</td>
-                            </tr>
-                            <tr>
-                                <td>Instalador de aires acondicionados</td>
-                                <td></td>
-                                <td>x</td>
-                                <td>$800</td>
-                                <td>descuento en prox curso</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <h3 id="art">Artísticos</h3>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Curso</th>
-                                <th>Video</th>
-                                <th>Pdf con ilustraciones</th>
-                                <th>Precios</th>
-                                <th>Promos</th>
-                                <th>Extras</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Carpintería básica</td>
-                                <td>x</td>
-                                <td>x</td>
-                                <td>$800</td>
-                                <td rowspan="3">Descuento 30% en tu segundo curso</td>
-                                <td rowspan="2">Plano de regalo</td>
-                            </tr>
-                            <tr>
-                                <td>Electricista básico</td>
-                                <td>x</td>
-                                <td></td>
-                                <td>$500</td>
-                            </tr>
-                            <tr>
-                                <td>Instalador de aires acondicionados</td>
-                                <td></td>
-                                <td>x</td>
-                                <td>$800</td>
-                                <td>descuento en prox curso</td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <form class="form-inline my-2 my-lg-0 px-5 py-2 offset-md-8">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 id="ofic">Oficios</h3>
+                            <div class="card-deck">
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-Carpintería-de-Aluminio-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                          <a href="" class="card-link">Ver detalles</a> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-muebles-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                       </div>
+                                    </div>
+                                </div> 
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-accesorios-cuero-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                       </div>
+                                    </div>
+                                </div> 
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-confeccion-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 id="inf">Informática</h3>
+                            <div class="card-deck">
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-diseno-grafico-1000x570-1-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                          <a href="" class="card-link">Ver detalles</a> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-barberia-compressor-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                       </div>
+                                    </div>
+                                </div> 
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-barberia-compressor-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                       </div>
+                                    </div>
+                                </div> 
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-barberia-compressor-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 id="beauty">Belleza y Salud</h3>
+                            <div class="card-deck">
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-manicura-300x300.png" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                          <a href="" class="card-link">Ver detalles</a> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-barberia-compressor-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                       </div>
+                                    </div>
+                                </div> 
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-barberia-compressor-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                       </div>
+                                    </div>
+                                </div> 
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-barberia-compressor-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 id="fin">Finanzas</h3>
+                            <div class="card-deck">
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-manicura-300x300.png" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                          <a href="" class="card-link">Ver detalles</a> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-barberia-compressor-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                       </div>
+                                    </div>
+                                </div> 
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-barberia-compressor-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                       </div>
+                                    </div>
+                                </div> 
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../imagen/curso-barberia-compressor-300x300.jpg" alt="construye accesorios de cuero">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Diseño de accesorios de cuero</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
         </main>
         <footer>
             <article>
@@ -186,5 +244,11 @@
             </article>
             <p> &copy; 2020 Todos Los Derechos Reservados &reg; Aprendemas</p>
         </footer>
+        <script type="text/script" src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </body>
 </html>
