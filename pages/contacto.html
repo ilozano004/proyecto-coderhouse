@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Aprende desde $300 ARS. Contacto."> 
-        <meta name="keywords"  content="CURSOS VIRTUALES, OFICIOS, NEGOCIOS, PDF, EMPRENDEDORES, CURSOS ONLINE ECONOMICOS, CURSOS CORTOS, APRENDE, EMPRENDIMIENTOS ">
-        <title>AprendeMas - Contacto</title>
+        <meta name="description" content="Aprende desde $300 ARS. Contacto.Te enviamos toda la información y cursos al mail o medio de contacto que nos proporciones."> 
+        <meta name="keywords"  content="mail, correo, teléfono, horarios, whatsapp">
+        <title>AprendeMas/Contacto</title>
         <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
         <link href="../css/styles.css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -25,16 +25,16 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                      <li class="nav-item active">
+                      <li class="nav-item">
                         <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item dropdown">
                         <a href="cursos.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Cursos</a>
                         <div class="dropdown-menu">
-                          <a href="pages/cursos.html#ofic" class="dropdown-item">Oficios</a>
-                          <a href="pages/cursos.html#inf" class="dropdown-item">Infórmatica</a>
-                          <a href="pages/cursos.html#beauty" class="dropdown-item">Belleza y Salud</a>
-                          <a href="pages/cursos.html#fin" class="dropdown-item">Finanzas</a>
+                          <a href="cursos.html#ofic" class="dropdown-item">Oficios</a>
+                          <a href="cursos.html#inf" class="dropdown-item">Informática</a>
+                          <a href="cursos.html#beauty" class="dropdown-item">Belleza y Salud</a>
+                          <a href="cursos.html#fin" class="dropdown-item">Finanzas</a>
                           <div class="divider"></div>
                           </div>
                       </li>
@@ -44,7 +44,7 @@
                       <li class="nav-item">
                         <a class="nav-link" href="noticias.html">Noticias</a>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item active">
                         <a class="nav-link" href="contacto.html">Contacto</a>
                       </li>
                     </ul>
@@ -56,10 +56,10 @@
             <div class="formulario">
               <div class="container">
                 <div class="row mt-3 pb-5">
-                  <div class="col-12 text-center">
-                    <h2 class="display-4 p-3" >Contáctanos</h2>
-                  </div>
-                  <div class="col-12 col-md-8 offset-md-2 fondo py-4 px-5 rounded">
+                  <div class="col-12 col-md-8 offset-md-2 fondo py-3 px-5 rounded">
+                    <div class="col-12 text-center">
+                      <h2 class="display-4 p-1" >Contáctanos</h2>
+                    </div>
                     <form name="contact" action="gracias.html" method="POST" class="action">
                       <div class="form-group">
                         <label for="my_name">Nombre</label>
@@ -102,7 +102,7 @@
                           <textarea name="c_coment" id="my_coment" placeholder="Comentarios" rows="3" class="form-control"></textarea>
                         </div>
                         <div class="form-group">
-                          <buttom class="btn btn-secondary btn-block"> Enviar </buttom>
+                          <button type="submit" class="btn btn-secondary btn-block"> Enviar </button>
                           <!-- <input type="submit" value="enviar"> -->
                         </div>
                       </div>
@@ -112,15 +112,39 @@
               </div>
             </div>
         </main>
-        <footer>
-            <article>
-                <img src="../imagen/logo.png" width="40px" alt="logo aprendemas">
-            </article>
-            <article>
-                <p>Seguinos en las redes </p>
-            </article>
-            <p> &copy; 2020 Todos Los Derechos Reservados &reg; Aprendemas</p>
-        </footer>
+        <!--Footer-->
+        <footer class="text-center py-4">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-4 footer-col">
+                  <h1 class="mb-100">Aprende+</h1>
+                  <ul class="list-inline">
+                      <li>
+                          <a  target="_blank" href="https://mail.google.com/" class="btn-social btn-outline"><i class="far fa-envelope"></i> Aprendemas@gmail.com</a>
+                      </li>
+                      <p>
+                          Córdoba - Argentina   
+                      </p>
+                </div>
+                <div class="col-md-4 footer-col">
+                      <h4>Seguinos en las redes</h4>
+                      <ul class="list-inline">
+                          <li>
+                              <a  target="_blank" href="https://api.whatsapp.com/send?phone=5199999999" class="btn-social btn-outline"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+                          </li>
+                          <li>
+                              <a  target="_blank" href="#" class="btn-social btn-outline"><i class="fab fa-facebook-square"></i> Aprende.mas  </a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col-md-4 footer-col">
+                      <h4>Horario de atención</h4>
+                      <p>Lunes a Sábados de 09:00 a 18:00hs</p>
+                  </div>
+                  <p class="col-md-4 footer-col"></p> &copy; 2020 Todos Los Derechos Reservados &reg; Aprende+</p>
+              </div>
+          </div>
+        </footer>   
         <script type="text/script" src="js/bootstrap.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
