@@ -10,7 +10,7 @@
         <link href="../css/styles.css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">   
-        <script src="fonts/all.min.js"></script>
+        <script src="../fonts/all.min.js"></script>
     </head>
     <body>
         <header>
@@ -54,17 +54,20 @@
             </div>     
           </header>
         <main>
-            <h2 class="col-4 offset-md-3 py-5">Cursos por Categorías</h2>
-            <form class="form-inline my-2 my-lg-0 px-5 py-2 offset-md-8">
+            
+            <form class="color-card form-inline my-2 my-lg-0 px-5 py-2 offset-md-8">
                 <input class="form-control mr-sm-2" type="text" placeholder="Encuentra tu curso" aria-label="Search">
                 <button class="btn btn-primary my-2 my-sm-0 d-inline-flex" type="submit">Buscar</button>
             </form>
-                    <div class="row bg-light">
-                        <div id="ofic" class="col-12 justify-content-center">
-                            <h3>Oficios</h3>
+            <h2 class="col-4 offset-md-4 border  text-center bg-light">Cursos por Categorías</h2>
+            <!-- LISTADO DE CURSOS POR CATEGORIAS -->
+            <div id="ofic" class="container id-cursos1"></div>
+                    <div class="row">
+                        <div class="col-12 justify-content-center">
+                            <h3 class="bg-light">Oficios</h3>
                             <div class="card-deck">
-                                <div class="col-lg-3 col-sm-6 carta">
-                                    <div class="card">
+                                <!-- <div class="col-lg-3 col-sm-6 carta">
+                                    <div class="card text-center mb-3">
                                         <div class="container button-card">
                                             <a class="btn btn-secondary" href=""><span class="badge badge-primary">Oferta $250</span> Ver detalles</a>
                                             <img class="card-img-top" src="../imagen/curso-Carpintería-de-Aluminio-300x300.jpg" alt="carpinteria de aluminio">
@@ -75,31 +78,42 @@
                                           
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-3 col-sm-6 carta">
+                                </div> -->
+
+                                <div class="col-lg-3 col-sm-6 border border-info ">
+                                    <div class="card text-center mb-3">
+                                        <img class="card-img-top" src="../imagen/curso-Carpintería-de-Aluminio-300x300.jpg" alt="carpinteria de aluminio">
+                                        <div class="card-body carta">
+                                          <h5 class="card-title">Carpintería de aluminio</h5>
+                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                          <a class="btn btn-secondary button-card pink"  href=""> Ver detalles</a>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="col-lg-3 col-sm-6 ">
                                     <div class="card text-center mb-3">
                                         <img class="card-img-top" src="../imagen/curso-muebles-300x300.jpg" alt="construye tus muebles">
-                                        <div class="card-body">
+                                        <div class="card-body carta">
                                           <h5 class="card-title">Fabrica tus muebles de madera</h5>
-                                          <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
+                                          <p class="card-text pink">Curso pdf, incluye moldería imprimible de REGALO.</p>
                                           <a class="btn btn-secondary"  href=""> Ver detalles</a>
                                         </div>
                                     </div>
                                 </div> 
-                                <div class="col-lg-3 col-sm-6 carta">
+                                <div class="col-lg-3 col-sm-6 ">
                                     <div class="card text-center mb-3">
                                         <img class="card-img-top" src="../imagen/curso-accesorios-cuero-300x300.jpg" alt="construye accesorios de cuero">
-                                        <div class="card-body">
+                                        <div class="card-body carta">
                                           <h5 class="card-title">Diseño de accesorios de cuero</h5>
                                           <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
                                           <a class="btn btn-secondary"  href="">Ver detalles</a>
                                        </div>
                                     </div>
                                 </div> 
-                                <div class="col-lg-3 col-sm-6 carta">
+                                <div class="col-lg-3 col-sm-6 ">
                                     <div class="card text-center mb-3">
                                         <img class="card-img-top" src="../imagen/curso-confeccion-300x300.jpg" alt="corte y confeccion">
-                                        <div class="card-body">
+                                        <div class="card-body carta">
                                           <h5 class="card-title">Corte y confección</h5>
                                           <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
                                           <a class="btn btn-secondary"  href=""> Ver detalles</a>
@@ -109,9 +123,10 @@
                             </div>
                         </div>
                     </div>   
+                    <div id="inf" class="container id-cursos"></div>
                     <div class="row">
                         <div class="col-12 py-4">
-                            <h3 id="inf">Informática</h3>
+                            <h3>Informática</h3>
                             <div class="card-deck">
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="card text-center mb-3">
@@ -136,7 +151,7 @@
                                 </div> 
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="card text-center mb-3">
-                                        <img class="card-img-top" height="235rem" src="../imagen/imgcurso1.jpeg" alt="desarrollo web">
+                                        <img class="card-img-top" height="233rem" src="../imagen/imgcurso1.jpeg" alt="desarrollo web">
                                         <div class="card-body">
                                           <h5 class="card-title">Desarrollo web</h5>
                                           <p class="card-text">Curso pdf, incluye moldería imprimible de REGALO.</p>
@@ -156,9 +171,10 @@
                             </div>
                         </div>
                     </div>
+                    <div id="beauty" class="container id-cursos"></div>
                     <div class="row">
                         <div class="col-12 py-4">
-                            <h3 id="beauty">Belleza y Salud</h3>
+                            <h3>Belleza y Salud</h3>
                             <div class="card-deck">
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="card text-center mb-3">
@@ -200,6 +216,7 @@
                             </div>
                         </div>
                     </div>
+                    <div id="fin" class="container id-cursos"></div>
                     <div class="row">
                         <div class="col-12 py-4">
                             <h3 id="fin">Finanzas</h3>
@@ -244,6 +261,7 @@
                             </div>
                         </div>
                     </div>
+        <!-- FIN LISTADO DE CURSOS POR CATEGORIAS -->
         </main>
         <footer class="text-center py-4">
             <div class="container">

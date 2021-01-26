@@ -9,16 +9,16 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link href="css/styles.css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway&display=swap" rel="stylesheet">
         <script src="fonts/all.min.js"></script>
     </head>
     <body>
         <header>
           <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <div class="container">
-                <a class="navbar-brand" href="index.html">
-                  <h1 class="d-block">Aprende+</h1>
+            <nav class="navbar navbar-expand-md navbar-light ">
+              <div class="container d-none d-sm-none d-md-block">
+                <a class="navbar-brand " href="index.html">
+                  <h1>Aprende+</h1>
                 </a>
               </div>  
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,7 +75,7 @@
                           </div>
                           <div class="carousel-item">
                             <img class="d-block w-100 rounded" data-src="holder.js/900x300?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide" alt="modalidades" src="imagen/fondo.jpg" data-holder-rendered="true">
-                            <div class="carousel-caption d-none d-md-block color-transparente py-4 offset-2">
+                            <div class="carousel-caption d-none d-sm-block color-transparente py-4 offset-lg-2">
                               <p>Maneja tus tiempos</p>
                               <h3>Cursos en videos</h3>
                               <p>Cursos para descargar pdf con modalidades</p>
@@ -98,70 +98,91 @@
             </section>
             <!-- TERMINA CAROUSEL -->
             <!--Seccion Los mas pedidos-->
-            <section class="container">
-                  <div class="container row">
-                    <h2 class="col-12 offset-md-4"><strong>Los más pedidos</strong> </h2>
-              <article>
-                <div class="row justify-content-center">
-                  <div class="col-lg-3 col-sm-6 text-center card-text">
-                    <h4>Desarrollo web </h4>
-                    <img class="card-body col-lg-12 col-md-3" src="imagen/imgcurso1.jpeg" alt="cursos mas pedidos">  
-                  </div>
-                  <div class="col-lg-3 col-sm-6 text-center card-text">
-                    <h4>Monotributo</h4>
-                    <img class="card-body col-lg-12 col-md-3" src="imagen/imgcurso2.jpeg" alt="cursos mas pedidos">
-                  </div>  
-                  <div class="col-lg-3 col-sm-6 text-center card-text">
-                    <h4>Excel Avanzado</h4>
-                    <img class="card-body col-lg-12 col-md-3" src="imagen/imgcurso3.jpeg" alt="cursos mas pedidos">
-                  </div> 
-                  <div class="col-lg-3 col-sm-6 text-center card-text">
-                      <h4>Electricidad</h4>
-                      <img class="card-body col-lg-12 col-md-3" src="imagen/imgcurso4.jpeg" alt="cursos mas pedidos">
-                  </div>
-                </div> 
+            <div class="container pt-5">
+              <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                 <h2 >LOS MÁS PEDIDOS</h2>
+                </div>
               </div>
-             </article> 
-            </section>
-            <!-- <section id="two">
-              <div class="inner">
-                <header class="major">
-                  <h2>Massa libero</h2>
-                </header>
-                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                <ul class="actions">
-                  <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
+              <div class="row bg-light py-5 justify-content-center">
+                <div class="col-lg-3 col-sm-6 text-center">
+                  <h4 class="text-center">Desarrollo web </h4>
+                  <div class="container-mp">
+                    <div class="div-img-mp hidden" >
+                    <img class="img-mp" src="imagen/imgcurso1.jpeg" alt="cursos mas pedidos desarrollo web">  
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                  <h4>Asesor de imagen</h4>
+                  <div class="container-mp">
+                    <div class="div-img-mp hidden" >
+                    <img class="img-mp" src="imagen/imgcurso2.jpg" alt="cursos mas pedidos asesor de imagen">
+                    </div> 
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                  <h4>Repostería</h4>
+                  <div class="container-mp">
+                    <div class="div-img-mp hidden" >
+                    <img class="img-mp" src="imagen/imgcurso3.jpg" alt="cursos mas pedidos">
+                    </div> 
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                  <h4>Electricidad básica</h4>
+                  <div class="container-mp">
+                    <div class="div-img-mp hidden" >
+                    <img class="img-mp" src="imagen/imgcurso4.png" alt="cursos mas pedidos">
+                    </div>
+                  </div>
+                </div>  
+              </div> 
+            </div>
+             <!--Seccion APRENDE MAS--> 
+              <div class="row fondo-pink">
+                <div class="col-12 col-md-12 ">
+                <h2 class=" display-3 text-center">Aprende+</h2>
+                <p class="text-center">Aprende fácil, rápido y sin gastar de más</p>
+                <a href="pages/cursos.html" class="categorias" >VER CURSOS </a>
+                </div>
               </div>
-            </section> -->
-            <h2>Aprende fácil, rápido y sin gastar de más</h2>
             <!--Seccion Opiniones-->
-            <div class="row">
-              <div class="col-8 offset-md-2">
-                <h2 class="col-6 offset-md-3">Opiniones</h2>
+
+            <div class="row mt-5 justify-content-center">
+              <div class="col-12 pt-5 text-center">
+               <h2 >OPINIONES DE ALUMNOS</h2>
+              </div>
+            </div>
+
+
+
+            <div class="container row row-mp justify-content-center d-none d-sm-none d-md-block">
+              <!-- <div class="col-12 "> -->
+                
                 <div class="card-group">
                   <div class="card border-info my-3">
                   <img src="imagen/opinion2.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">Buscábamos aprender algo nuevo para poder trabajar y gracias a aprende más pudimos iniciar nuestro propio emprendimiento de marketing digital .</p>
                     </div>
-                    <div class="card-footer">
-                      Carla y Sara
+                    <div class="card-footer text-center">
+                      Carla, Sara y Sofía
                     </div>
                   </div>
                   <div class="card border-info my-3">
-                    <img src="imagen/opinion2.jpg" class="card-img-top" alt="...">
+                    <img src="imagen/opinion1.jpg" class="card-img-top w-100 h-50" alt="...">
                     <div class="card-body">
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       </div>
-                      <div class="card-footer">
+                      <div class="card-footer text-center">
                         Carla y Sara
                       </div>
                     </div>
                     <div class="card border-info my-3">
                       <img src="imagen/opinion3.jpg" class="card-img-top" alt="...">
                       <div class="card-body"> 
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text">Es la segunda vez que compró un curso online y me resultó sin duda lo mejor de todo las explicaciones el contenido y el acceso desde cualquier lugar.</p>
                         </div>
                         <div class="card-footer">
                           Carla y Sara
@@ -170,55 +191,20 @@
                       <div class="card border-info my-3">
                         <img src="imagen/opinion3.jpg" class="card-img-top" alt="...">
                         <div class="card-body"> 
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">A través del curso de Finanzas para Emprendedores pudimos organizarnos y  aumentar nuestra eficiencia al 100%. Estamos agradecidos creciendo más que nunca.</p>
                           </div>
-                          <div class="card-footer">
-                            Carla y Sara
+                          <div class="card-footer text-center">
+                            Simón y Ana
                           </div>
                         </div>
                 </div>
-              </div>
+              <!-- </div> -->
             </div>
-              
-
-            <!--ELIMINAR ESTO <section class="container flex-section d-none d-sm-none d-md-block">  
-              <article class="row justify-content-center">
-                  <h2 class="col-6 offset-md-3">Opiniones</h2>
-              </article>  
-              <article>
-                <div class="container">
-                  <div class="row justify-content-center">
-                    <div class="p-flex">
-                      <h6></h6>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, reiciendis labore. Iste quae quia ex dolor adipisci odit doloribus 
-                            eligendi maiores esse eius, nihil repudiandae repellat sequi iure tempora perferendis
-                        </p>
-                    </div>
-                    <div class="p-flex">
-                        <p>Comentario 2
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur magnam ullam quisquam illo quia obcaecati qui doloremque! Officia quae laudantium obcaecati repellat, necessitatibus ad temporibus eveniet sint recusandae cum.
-                        </p>
-                    </div>
-                    <div class="p-flex">
-                        <p>Comentario 3
-                         quae laudantium obcaecati repellat, necessitatibus ad temporibus eveniet sint recusandae cum.
-                        </p>
-                    </div>
-                    <div class="p-flex">
-                        <p>Comentario 4
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur magnam ullam quisquam illo quia obcaecati qui doloremque! Officia quae laudantium obcaecati repellat, necessitatibus ad temporibus eveniet sint recusandae cum.
-                        </p>
-                    </div>
-                </div>
-              </div>
-             </article>
-            </section> -->
             <!--Seccion Categorias-->
-            <section class="container">
+            <section class="container ">
               <article>
                 <div class="row justify-content-center">
-                  <h2>Categorías de Cursos</h2>
+                  <h2>CATEGORÍAS DE CURSOS</h2>
                 </div>
               </article>
               <article class="d-flex col-12 text-center">
