@@ -15,6 +15,14 @@ h1 {
     display:inline-block;
     font-family:'Montserrat', sans-serif;
 }   
+/* 
+@media (max-width:768px){
+    .container{
+        float: right;
+       border-color:white;
+
+    }
+} */
 
 h2{
     padding:2rem 0 2rem 0;
@@ -32,12 +40,23 @@ header {
     z-index:20;
 }   
 /*menu*/
-nav ul li {
+nav ul li{
     margin:0 2px 0 0;
+    /* background-color:#ffcbcb; */
     background-color: #70adb5;
-    font-family:'Raleway', sans-serif; 
-    font-weight:bolder;
-    font-size: 1rem;
+    font-family:'Montserrat', sans-serif; 
+    font-weight:500;
+    /* font-size: 1rem; */
+}
+
+
+
+/* .navbar-toggle-icon{
+    border-color:#70ADB5;
+    background-color: #70ADB5;
+} */
+.btn-menu{
+    background-color: #70ADB5;
 }
 
 /*submenu*/
@@ -76,12 +95,11 @@ body{
     background-image: url("../imagen/body.png");
 }
 body p {
-  
     font-size: 1rem;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
 }
-.fondo-inicial{/*cambiar imagen y ver cómo alinearla. centrar texto*/
+/* .fondo-inicial{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -90,50 +108,30 @@ body p {
     background-size: cover;
     background-position: right center; 
     text-align: center;  
-}
-.fondo-pink{
-    background-color: #ffcbcb;
-    height:20rem;  
-}
-.fondo-pink h2{
-    color:#70adb5;
-    font-weight: bolder;
-    font-size: 5rem;
-    margin: 0px; 
-    font-family:'Lato', sans-serif;
-}
-
-.fondo-pink p {
-    font-size: 2rem;
-}
-/* .fondo-pink:hover{
-    background-color: rgba(3, 0, 0, 0.6);
-
 } */
 
-.pink{
-    background-color: #ffcbcb;
-}
+
 
 
 
 
 
 /*CARROUSEL*/
-.button:hover{
+.btn-cursos:hover{
     background: #70adb5;
     text-decoration:none;
     color:#132743;
 }
-.button {
+.btn-cursos {
     background :#132743;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: large;
+    font-weight: 600;
     text-align: center;
-    padding: 1rem 1rem;
-    border-radius:.25rem; 
-    height:3rem;
+    /* padding: 1rem 1rem; */
+    border-radius:.25rem;   
+    /* height:3rem; */
     width: 8rem;
     text-decoration:none;
     animation:push 2s infinite;
@@ -150,7 +148,9 @@ body p {
 } 
 .color-transparente{
 background-color: rgb(255,255,255,.6);
-width:25rem;
+width: 25rem;
+/* width:100%; */
+height: auto;
 color:#132743;
 }
 
@@ -171,12 +171,9 @@ color:#132743;
 }  */
 
 
-
 .container-mp{   
-    width: 250px;
+    width: 100%;
     height:auto;
-    /* border: 1px solid blue; */
-    /* position: absolute; */
     left: 0;
     right: 0;
     margin: 10px;
@@ -213,8 +210,30 @@ color:#132743;
     -webkit-transform: scale(1.2);
     -o-transform: scale(1.2);
   }
+/* Seccion APRENDE MAS */
 
+.fondo-pink{
+    background-color: #ffcbcb;
+    height:25rem;  
+}
+.fondo-pink h2{
+    color:#70adb5;
+    font-weight: bolder;
+    font-size: 5rem;
+    margin: 0px; 
+    font-family:'Montserrat', sans-serif;
+}
 
+.fondo-pink p {
+    font-size: 2rem;
+}
+/* .fondo-pink:hover{
+    background-color: rgba(3, 0, 0, 0.6);
+
+} */
+.container-cen{
+    text-align:center;
+}
 
 /*seccion opiniones*/
 .row-mp{
@@ -258,14 +277,22 @@ div.p-flex:hover{
     display:none;
     }
 }
+.card-body{
+    padding:0.5rem;
+    /* line-height: 1.5; */
+}
+
 /*seccion Categorias de cursos*/
+.cont-cat{
+    padding-right:0px;
+}
 .categorias{
     color:#132743;
     font-size: x-large; 
-    width: 90%;
-    height: 100%;
+    width: 100%;
+    height: 60%;
     background-color: #70ADB5;  
-    margin: 20px ;
+    margin: 20px 10px 20px 0 ;
     box-shadow: 0 10px 10px 0;
     border-radius: 3px;
 }
@@ -310,7 +337,7 @@ footer{
     justify-content:space-between auto;
     color:white;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
  }
  footer h4 {
     margin-bottom: 30px;
@@ -329,11 +356,9 @@ footer{
  footer .footer-col{
     margin-bottom: 50px;
  }
-    /* footer p {
-        color:white;
-        font-weight: 700;
-        font-family: 'Open Sans', sans-serif;
-    } */
+footer p {
+    font-family: 'Raleway', sans-serif;
+}
  .title{
     display:block;
     height: 50px;
@@ -351,6 +376,7 @@ h3 {
 }
 .color-card{
     background-color:#ffcbcb;
+    border-radius: 3px;
 }
 
 .id-cursos{
@@ -366,9 +392,7 @@ h3 {
 padding: 0px;
 margin :0px;
 }
-
-
-.carta {
+/* .carta {
 
     width: auto;
     padding:10px;
@@ -378,14 +402,15 @@ margin :0px;
     border-color:black;
     background-color:#ffcbcb;
 
-}
+} */
 .button-card{
-    color:#132743;
+    background-color:#407088;
     border-color:#132743;
+    font-weight: 600;
 }
 .button-card:hover{
-    /* color:#132743; */
-    background-color:#407088;
+    background-color: #ffcbcb;
+    color:#132743;
     border-color:#132743;
 }
 
