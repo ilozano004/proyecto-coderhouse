@@ -148,9 +148,6 @@ body p {
 } 
 .color-transparente{
 background-color: rgb(255,255,255,.6);
-width: 25rem;
-/* width:100%; */
-height: auto;
 color:#132743;
 }
 
@@ -389,8 +386,8 @@ h3 {
 .card{
     width:80%;
     height: 25rem;
-padding: 0px;
-margin :0px;
+    padding: 0px;
+    margin :0px;
 }
 /* .carta {
 
@@ -440,7 +437,13 @@ margin :0px;
     height: 450px;
   } */
 
+/* PAGE: NOTICIAS */
+.foot-not{
+    padding-top: 2px;
+    background-color:#ffcbcb ;
+    color:#407088;
 
+}
 
 /*PAGE: CONTACTO*/
 .formulario{
@@ -449,7 +452,7 @@ margin :0px;
     background-size: cover;
 }
 .fondo{
-    background: rgba(137, 187, 187, 0.5);
+    background: rgba(144, 210, 221, 0.6);
+    font-family:'Raleway', sans-serif;
+    font-weight: bolder;
 }
-
-
