@@ -15,14 +15,6 @@ h1 {
     display:inline-block;
     font-family:'Montserrat', sans-serif;
 }   
-/* 
-@media (max-width:768px){
-    .container{
-        float: right;
-       border-color:white;
-
-    }
-} */
 
 h2{
     padding:2rem 0 2rem 0;
@@ -42,19 +34,11 @@ header {
 /*menu*/
 nav ul li{
     margin:0 2px 0 0;
-    /* background-color:#ffcbcb; */
     background-color: #70adb5;
     font-family:'Montserrat', sans-serif; 
     font-weight:500;
-    /* font-size: 1rem; */
 }
 
-
-
-/* .navbar-toggle-icon{
-    border-color:#70ADB5;
-    background-color: #70ADB5;
-} */
 .btn-menu{
     background-color: #70ADB5;
 }
@@ -99,22 +83,6 @@ body p {
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
 }
-/* .fondo-inicial{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right center; 
-    text-align: center;  
-} */
-
-
-
-
-
-
 
 /*CARROUSEL*/
 .btn-cursos:hover{
@@ -129,9 +97,7 @@ body p {
     font-size: large;
     font-weight: 600;
     text-align: center;
-    /* padding: 1rem 1rem; */
     border-radius:.25rem;   
-    /* height:3rem; */
     width: 8rem;
     text-decoration:none;
     animation:push 2s infinite;
@@ -154,19 +120,6 @@ color:#132743;
 /* seccion Los mas pedidos */
 
 /*Animaciones imagenes LOS MAS PEDIDOS, NOTICIAS*/
-.pedidos-img{
-    height:200px;
-    width:300px;
-    /* transition:all .3s;  */
-    margin:1rem;    
-}
-/* @media only screen for (min-width: 812px) and (max-width: 1024px) {
-    article img{
-        height: 200px;
-        width: 300px;
-    }   
-}  */
-
 
 .container-mp{   
     width: 100%;
@@ -233,50 +186,18 @@ color:#132743;
 }
 
 /*seccion opiniones*/
-.row-mp{
-    /* margin-right:0px; */
-    margin-left:4rem;
-    justify-content: center;
-}
 
 .card-group{
-    height: 30rem;
-    width: auto;
+    align-items: center;
 }
 
 .card-footer{
     font-weight: 700;
 }
 
-.flex-section{
-    display:flex;
-    flex-direction: row;
-    flex-wrap:nowrap;
-    justify-content:space-between;
-    padding:10px;  
-}
-div.p-flex{
-    display:flex;
-    flex-basis:200px;
-    align-self: stretch;
-    margin:auto;
-    padding: 5px;    
-    background: #132743;
-    color:#ffcbcb;/*quiero que cambie el color de la letra de comentarios*/
-    font-size:x-small;
-}
-div.p-flex:hover{
-    transform: scale(1.2);
-    border:2px white solid;
-}
-@media (max-width: 768px) {
-    .flex-section {
-    display:none;
-    }
-}
 .card-body{
     padding:0.5rem;
-    /* line-height: 1.5; */
+    height: 300px;
 }
 
 /*seccion Categorias de cursos*/
@@ -324,7 +245,7 @@ p categorias:hover{
     color: #0df053;
     background-color: #fff;
   }
-
+/* TERMINA INICIO */
 /*footer*/
 footer{ 
     background-color:#132743;
@@ -336,27 +257,27 @@ footer{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
  }
- footer h4 {
+footer h4 {
     margin-bottom: 30px;
     font-weight: 700;
   }
- footer li a {
+footer li a {
     color:white;
  }
- footer a {
+footer a {
     color:white;
  }
- footer li a:hover{
+footer li a:hover{
     color:#ffcbcb;
     text-decoration: none;
  }
- footer .footer-col{
+footer .footer-col{
     margin-bottom: 50px;
  }
 footer p {
     font-family: 'Raleway', sans-serif;
 }
- .title{
+.title{
     display:block;
     height: 50px;
     width: 100%;
@@ -389,17 +310,7 @@ h3 {
     padding: 0px;
     margin :0px;
 }
-/* .carta {
 
-    width: auto;
-    padding:10px;
-    margin:auto;
-    font-size:0.75rem;
-    letter-spacing: 0px;
-    border-color:black;
-    background-color:#ffcbcb;
-
-} */
 .button-card{
     background-color:#407088;
     border-color:#132743;
@@ -416,33 +327,11 @@ h3 {
     align-items: center;
 }
 
-/*queri*/
-@media only screen and (min-width: 360px) and (max-width: 1024px){
-    .grid div{
-        background-color: #000000;
-        grid-template-columns: 1fr; 
-        grid-template-rows: 1fr;
-        text-align: center;
-        }
-    }
-
-/* card{
-    height:350px
-} */
-
-/* PAGE: MODALIDADES */
-/* 
-  .main-img {
-    width: 450px;
-    height: 450px;
-  } */
-
 /* PAGE: NOTICIAS */
 .foot-not{
     padding-top: 2px;
     background-color:#ffcbcb ;
     color:#407088;
-
 }
 
 /*PAGE: CONTACTO*/
